@@ -1,0 +1,32 @@
+
+body{
+    background: black;
+    margin: 50px;
+    color: #eee;
+    --left: white;
+    --right: #444;
+}
+
+ul{
+    min-width: 300px;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 4px;
+    width: fit-content;
+    font-size: clamp(36px, 12vw, 100px);
+    margin: 0;
+    background-image: linear-gradient(
+    90deg,
+    var(--left) 0%,
+    var(--left) 0%,
+    var(--right) 0%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
