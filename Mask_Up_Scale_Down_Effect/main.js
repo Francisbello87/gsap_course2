@@ -1,0 +1,7 @@
+const tl = gsap.timeline()
+.from('.danfo', {scale: 2})
+.to('.mask', {clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)"}, 0)
+.to(".mask", {scale:0.95, duration:2})
+.from(".text1", {y:-100, }, )
+.from(".text2", {y:100, },)
+// .to('text1', {opacity:1, y:0 })
