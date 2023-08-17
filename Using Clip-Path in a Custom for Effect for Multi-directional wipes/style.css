@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+  }
+
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  background: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ul{
+    display: grid;
+    padding: 0;
+}
+ul{
+    grid-area: 1/1;
+}
+.wrapper {
+  /* background-color: white; */
+  width: 70%;
+  text-align: center;
+  position: relative;
+}
+.clipped{
+    background-color: purple;
+    padding: .875rem;
+    color: white;
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+.clipped2{
+    background-color: white;
+    padding: .875rem;
+    color: purple;
+}
+li {
+  list-style-type: none;
+  font-weight: 800;
+  font-size: 5vw;
+}
